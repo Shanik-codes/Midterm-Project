@@ -7,7 +7,10 @@ public class Main {
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();
 
-        System.out.print("Hello, " + name + "!");
+        System.out.println("Enter your major: ");
+        String major = scanner.nextLine();
+
+        System.out.print("Hello, " + name + " Congratulations on your " + major + " major!");
 
         scanner.close();
     }
